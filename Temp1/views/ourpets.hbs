@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+      <head>
+             <title>COZY HOUSE</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/all.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+      </head>
+
+      <body>
+            <div>{{>header}}</div>
+
+  <div class="container  container-md container1">
+  <div class="row justify-content-center"> 
+  <div class="accordion ">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button   text-uppercase " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        {{textButton1}}
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+      <div class="accordion-body">
+        <strong>{{title1}}</strong>{{desc1}}<br>
+          </div>
+        </div>
+      </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed   text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        {{textButton2}}
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" >
+      <div class="accordion-body">
+        <strong>{{title2}}</strong> {{desc2}}
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed   text-uppercase " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        {{textButton3}}
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+      <div class="accordion-body">
+        <strong>{{title3}}</strong> {{desc3}}
+   </div>
+   </div>
+  </div>
+</div> 
+  <div class="image_container1 mt-5"> 
+    <img src= {{img}} alt="a dog and a cat siting next to each other"  width="480" class="img2">
+</div>
+</div>
+</div>
+     <div>{{>footer}}</div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+</html>

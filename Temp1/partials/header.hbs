@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title>COZY HOUSE</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/all.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+      </head>
+      <body>
+        
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light ">
+    <div class="container-fluid container-fluid-md">
+      <a class="navbar-brand " href="/">COZY HOUSE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About the shelter</a>
+          </li>
+          <li class="nav-item dropdown">
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+              Our pets
+            </button>
+            <div class="dropdown-menu  " >
+              <a class="dropdown-item" href="/ourpets"> Persian Cats</a>
+              <a class="dropdown-item" href="/ourpets">Siamese cat</a>
+              <a class="dropdown-item" href="/ourpets">Maine Coon</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/ourpets"> Bolognese Dog Breed</a>
+              <a class="dropdown-item" href="/ourpets">Rottweiler dog</a>
+            </div>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="/content">Contacts</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-light" type="button">Search</button>
+        </form>
+        <div class="login">
+        <button type="button" class="btn btn-light m-2" data-bs-toggle="modal" data-bs-target="#myModal">
+         login
+        
+        </button>
+      </div>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header ">
+                <h4 class="modal-title w-100 font-weight-bold text-center">Sign in</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <form class="text-center border border-light " action="#!">
+                  <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+                  <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+                  <div class="d-flex justify-content-around">
+                      <div>
+                          <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input bg-muted" id="defaultLoginFormRemember">
+                              <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                          </div>
+                      </div>
+                      <div >
+                          <a href="" class="text-decoration-none text-muted">Forgot password?</a>
+                      </div>
+                  </div>
+                  <div class="btn1">
+                  <button class="btn btn-block  btn-light my-4 w-100" type="submit" data-bs-dismiss="modal">Sign in</button>
+                  </div>
+                  <p class="member">Not a member?
+                      <a href="#" class="text-decoration-none text-muted ">Register</a>
+                  </p>
+                  <p>or sign in with:</p>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f "></i></a>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-twitter "></i></a>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in "></i></a>
+                  <a href="#" class="mx-2" role="button"><i class="fab fa-github "></i></a>
+              </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-light bg-light" data-bs-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+</html>
